@@ -4,7 +4,8 @@ const Notification = () => {
   const message = 'There is no feedback';
   return (
     <div>
-      <h2>{message}</h2>
+      <h2>Statistics</h2>
+      <p>{message}</p>
     </div>
   );
 };

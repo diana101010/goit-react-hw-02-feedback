@@ -23,9 +23,7 @@ class SectionTitle extends Component {
       <div>
         <FeedbackOptions handleFeedback={this.handleFeedback} />
         {total === 0 ? (
-          <Notification
-            message="There is no feedbacck"
-          />
+          <Notification message="There is no feedbacck" />
         ) : (
           <Statistics good={good} neutral={neutral} bad={bad} />
         )}
